@@ -11,6 +11,8 @@
     height: 60px;
     background-color: #0f1111;
     color: aliceblue;
+    display: flex;
+    
 }
 .nav-logo{
     height: 50px;
@@ -24,10 +26,8 @@
     width: 100%;
 }
 .border{
-    border: 2px;
-    border-color: aliceblue transparent;
+    border: 2px solid transparent;
 }
 .border:hover{
-    border-color: aliceblue;
-    border:2px;
+    border: ;
 }
