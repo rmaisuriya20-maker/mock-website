@@ -2,6 +2,7 @@
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     border: border-box;
+    
 
 
 }
@@ -114,6 +115,7 @@
     height: 39px;
     align-items: center;
     justify-content: space-evenly left;
+    color: #f3f3f3;
 }
 .three-line-thingy{
      
@@ -121,5 +123,63 @@
 .nav-shop-option p {
     display: inline flex;
     font-size: 14px;
-    color: #f3f3f3;
+    margin: 10px;
+    
+}
+.shop-option{
+    width: 99%;
+}
+/** hero section **/
+.hero-section{
+    background-image:
+     url("images/hero_image.jpg");
+    height: 350px;
+    background-size: cover;
+    
+}
+.hero-message{
+    background-color: #f3f3f3;
+    color: black;
+    height : 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px ;
+    
+}
+.hero-message a {
+    color: rgb(36, 150, 238);
+    
+}
+.content{
+    display: flex;
+    justify-content: space-evenly ;
+    background-color: #D3DFDF;
+}
+.box{
+
+width: 23%;
+height: 400px;
+background-color: white;
+border: 2px #0f1111 solid;
+padding: 20px 0px 15px;
+margin-top: 1.25rem;
+border: none;
+
+
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.img{
+    height: 350px;
+    background-size: cover;
+    
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-content a {
+    color: rgb(36, 150, 238);
+    text-decoration: none;
 }
